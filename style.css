@@ -1,4 +1,103 @@
+*{
+margin: 0;
+padding: 0;
+}
+
 #root{
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400
 }  
+
+body{
+  background-color: #F5F4F0;
+  background-size: cover;
+}
+
+#page{
+    box-sizing: border-box;
+    width: 800px;
+    padding: 24px;
+    background-color: #F5F4F0;
+    border-radius: 24px;
+    margin: 48px auto 48px;
+}
+
+img{
+    border-radius: 24px;
+    width: 700px;
+    margin: 20px center 4px;
+}
+
+main{
+    padding: 24px;
+}
+
+section + section{
+    margin-top: 24px;
+}
+
+#content p + p{
+    margin-top: 12px;
+}
+
+headline{
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 110%;
+    color: #E1624F;
+    text-transform: uppercase;
+    font: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin: 0 0 20px;
+
+}
+
+h1{
+    font-size: 36px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 110%;
+    color: #1B1B1B;
+    font: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin: 0 0 5px;
+
+}
+
+h2{
+    font-size: 32px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 110%;
+    color: #1B1B1B;
+    font: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin: 0 0 5px;
+
+}
+
+h3{
+    font-size: 28px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 110%;
+    color: #1B1B1B;
+    font: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin: 5px 0 5px;
+
+}
+
+p{
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 150%;
+    color: #1B1B1B;
+    font: 'Open Sans', sans-serif;
+    font-weight: 1120;
+    margin: 5px 0 100px;
+    text-align: justify;
+}
+
+footer img{
+    vertical-align: middle;
+    height: 24px;
+    width: 24px;
+}
